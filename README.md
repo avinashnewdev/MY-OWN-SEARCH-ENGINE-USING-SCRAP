@@ -25,3 +25,14 @@ beautifulsoup4>=4.12.3
 pydantic>=2.6.0
 python-multipart>=0.0.9
 
+Step 3: Run & Test Instructions
+Dependencies install karein:
+
+Bash
+cd backend
+pip install -r requirements.txt
+Server start karein:
+
+Bash
+python app.py
+Browser me open karein: [http://127.0.0.1:8000](http://127.0.0.1:8000)
