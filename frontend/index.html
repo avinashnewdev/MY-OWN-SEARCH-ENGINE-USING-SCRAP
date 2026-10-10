@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY OWN SEARCH ENGINE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Liquid Glowing Spheres -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <div class="container">
+    <header class="brand-header">
+      <h1>MY OWN SEARCH ENGINE</h1>
+      <p>Precision Logic • Liquid Glass Interface</p>
+    </header>
+
+    <div class="search-box-wrapper">
+      <form id="search-form" class="glass-bar">
+        <input 
+          type="text" 
+          id="search-input" 
+          class="search-input" 
+          placeholder="Search the web with real precision..." 
+          autocomplete="off"
+          autofocus
+        />
+        <button type="submit" class="glass-btn">Search</button>
+      </form>
+    </div>
+
+    <div id="meta-container" class="meta-info" style="display: none;">
+      <span id="result-count"></span>
+      <span id="search-latency"></span>
+    </div>
+
+    <!-- Results stream -->
+    <main id="results-container"></main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
